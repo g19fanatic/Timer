@@ -22,6 +22,13 @@ Changed data types of variables and functions:
  o Added Timer::pulseImmediate(). pulseImmediate sets the pin to the specified value for the given
    duration. After the duration, the pin is set to !value.
    
+1.2 by Jack Christensen
+ o Added "blink2" example illustrating flashing two LEDs at different rates.
+
+1.3 by Sandy Walsh
+ o Added a "context" parameter to callbacks. You can pass in the context
+   when the event is created and it will be sent back to callback when
+   called.
 1.3 by Jack Christensen
  o Added "blink2" example illustrating flashing two LEDs at different rates.
  o 19Oct2013: This is the last v1.x release. It will continue to be available on GitHub
