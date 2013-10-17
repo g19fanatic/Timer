@@ -41,9 +41,10 @@ public:
   int repeatCount;
   uint8_t pin;
   uint8_t pinState;
-  void (*callback)(void);
+  void (*callback)(void*);
   unsigned long lastEventTime;
   int count;
+  void* context;
 };
 
 #endif
