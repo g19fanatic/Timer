@@ -115,8 +115,8 @@ int8_t Timer::stop(int8_t id)
 
 void Timer::update(void)
 {
-	unsigned long now = millis();
-	update(now);
+    unsigned long now = millis();
+    update(now);
 }
 
 void Timer::update(unsigned long now)
